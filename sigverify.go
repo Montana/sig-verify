@@ -14,7 +14,7 @@ import (
 )
 
 func main() {
-	// creat the sign doc json obj. and marshal it
+	// create the sign doc json obj. and marshal it
 	Msg := createMsgSignData("juno1n9e6zfv956xn2m36q3qzjq2gdpa5zqnzxqlrtn", "dGVzdA==")
 	enc, err := json.Marshal(Msg)
 	if err != nil {
